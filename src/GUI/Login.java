@@ -4,7 +4,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 
-import java.awt.Font;
+import java.awt.*;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -18,21 +18,21 @@ public class Login {
 
 	/**
 	 * Launch the application.
-	 * @throws FileNotFoundException 
-//	 */
-//	public static void main(String[] args) 
-//	{
-//		EventQueue.invokeLater(new Runnable() {
-//			public void run() {
-//				try {
-//					Login window = new Login();
-//					window.frame.setVisible(true);
-//				} catch (Exception e) {
-//					e.printStackTrace();
-//				}
-//			}
-//		});
-//	}
+	  /*@throws FileNotFoundException*/
+
+	public static void main(String[] args)
+	{
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Login window = new Login();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
 
 	/**
 	 * Create the application.
